@@ -117,9 +117,9 @@ export default function Experience({ sectionRef }: Props) {
         <div className="mt-12 pt-12 border-t border-gray-800">
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { label: "Projects Completed", value: "12+" },
-              { label: "Years of Experience", value: "2+" },
-              { label: "Technologies Mastered", value: "20+" },
+              { label: "Projects Completed", value: "4+" },
+              
+              { label: "Technologies Mastered", value: "6+" },
             ].map((stat, i) => (
               <div
                 key={stat.label}
